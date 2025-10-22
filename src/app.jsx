@@ -7,7 +7,7 @@ function App() {
     console.log("Mon Increment :", count)
   }
   return (
-    <div className=''>
+    <div className=' bg-white rounded-lg'>
       <h1>Ma constante : {count}</h1>
       <button onClick={handleIncrement}>Incrementer</button>
       <Button label="compteur"/>
